@@ -10,7 +10,11 @@ function ExampleComponent() {
       />
       <p>Whoa!</p>
     </div>
+    
   );
+  <>
+     <TestComponent />
+    </>
 }
 
 export default ExampleComponent;
